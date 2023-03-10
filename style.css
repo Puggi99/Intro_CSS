@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;700&family=Shantell+Sans&display=swap');
+
+
+h1 {
+    background-color: red;
+}
+
+a {
+    background-color: crimson;
+    font-family: 'Mukta', sans-serif;
+}
+
+
+.font-grosso {
+    font-size: xx-large;
+}
+
+.font-normale {
+    font-weight: 400;
+}
+
+#titolo-principale {
+    color: gold;
+}
+
+h4,
+h5 {
+    color: green
+}
+
+.font-grosso a {
+    color: white;
+}
+
+.titolone {
+    width: 50%;
+    height: 50%;
+}
+
+.mamma {
+    background-color: darkorange;
+    width: 50%;
+    height: 50%;
+}
+
+.figlia {
+    width: 50%;
+    min-width: 300px;
+    height: 50px;
+    overflow: hidden;
+
+}
+
+.primo {
+    background-color: aqua;
+    padding: 18px;
+}
+
+.secondo {
+    background-color: chartreuse;
+    margin: 20px 60px;
+}
+
+.terzo {
+    /* border-style: solid;
+border-color: red;
+border-width: 40px; */
+    height: 400px;
+    width: 800px;
+    border: solid 8px red;
+    /* border-radius: 8px;
+    border-top-left-radius: 30px; */
+    border-radius: 30px 180px 30px 200px;
+    background-image: url("./assets/photo-1617895153857-82fe79adfcd4.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+body{
+
+    background-image:url(./assets/Print_AniCura_Dogs_353_Siberian_husky.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Shantell Sans', cursive;
+}
+
+.quarto{
+    background-color: darkblue;
+    display:inline-block;
+    color: white;
+    width: 300px;
+    height: 300px;
+}
+
+.quinto{
+    background-color: violet;
+    display:inline
+}
+
+body img {
+    opacity: 0,6;
+    background-image:url(./assets/Print_AniCura_Dogs_353_Siberian_husky.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
